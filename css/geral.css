@@ -1,0 +1,394 @@
+body{
+	color: #000;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	text-align: justify;
+    font-size: 14px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.centro{
+    text-align: center;
+}
+
+
+/* == PÁGINA INDEX == */
+
+/* CONTEINER */
+
+#conteiner{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+/* CABEÇALHO */
+
+header{
+	width: 85%;
+	height: 90px;
+	margin: 0 auto;
+	background-color: #fff;
+    background: url('../imagens/fundotopo.png') no-repeat;
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+#headerH2LEFT{
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-size: 65px;  
+}
+
+#headerH2LEFT h2{
+    padding: 2%;
+
+}
+
+#headerPright{
+    float: right;
+    width: 25%;
+    height: 60%;
+    color: #fff;
+    text-align: right;
+}
+
+#headerPright{
+    padding-top: 3%;
+}
+
+/* MENU NAV */
+
+nav{
+	margin: 0 auto;
+	width: 85%;
+	height: 25px;
+	padding: 5px;
+	text-align: center;
+    background-color: #0099cc;
+}
+
+nav ul{
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display: inline;	/*para deixar espaço entre os itens*/
+	margin-right: 10px;
+	font-size:14px;
+}
+
+nav ul li a:link{
+	color: #fff;
+	text-decoration: none; /* Retira o sublinhado de baixo das letras  */
+}
+
+nav ul li a:hover{
+	background-color: #ccc;
+}
+
+/* SESSÃO ONDE CONTÉM TUDO */
+
+section{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 85%;
+    height: 500px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* ASIDE ESQUERDO */
+
+#asideEsquerdo{
+    margin: 0 auto;
+    margin-right: 5px;
+    width: 20%;
+    height: 97.5%;
+    border: 1px solid #000;
+    float: left;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.asideEsquerdoTable{
+    margin: 0 auto;
+    border: 2px solid #0099cc;
+    text-align: left;
+}
+
+.asideEsquerdoTable th{
+    border: 2px solid #0099cc; 
+    width: 91px;
+    padding: 2px;
+
+}
+
+.asideEsquerdoTable td{
+    border: 2px solid #0099cc; 
+    width: 91px;
+    padding: 2px;
+
+}
+
+/* ARTICLE DENTRO DA SESSÃO */
+
+article{
+    margin: 0 auto;
+    margin-right: 5px;
+	width: 55.7%;
+	height: 97.5%;
+	border: 1px solid #000;
+	padding: 5px;
+	background-color: #fff;
+    float: left;
+}
+
+article h2{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article p{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    line-height: 17px;
+}
+
+/* ASIDE DIREITO */
+
+#asideDireito{
+    margin: 0 auto;
+    width: 20%;
+    height: 97.5%;
+    border: 1px solid #000;
+    float: left;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.asideDireitoIMG{
+    margin-top: 30%;
+}
+
+/* RODAPÉ */
+
+footer{
+	width: 85%;
+	height: 40px;
+	padding: 5px;
+	margin: 0 auto;
+	clear: both;
+	background-color: #fff;
+	text-align: center;
+}
+
+footer p{
+    line-height: 40px;
+}
+
+
+/* === PÁGINA SOBRE CSI === */
+
+
+/* ASIDE DIREITO */
+
+#asideDireitoSobre{
+    margin: 0 auto;
+    width: 20%;
+    height: 97.5%;
+    border: 1px solid #000;
+    float: left;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 12.5px;
+}
+
+#asideDireitoSobre table{
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+#asideDireitoSobre table th{
+    background-color: darkorange;
+}
+
+#asideDireitoSobre table td{
+    border: 0;
+}
+
+
+/* === PÁGINA HORÁRIOS CSI === */
+
+/* SESSÃO ONDE CONTÉM TUDO */
+
+#sectionHorarios{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 85%;
+    height: 500px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.buttonSectionHorarios1{
+    margin-left: 45%;
+}
+
+
+#asideEsquerdoHBus{
+    margin: 0 auto;
+    margin-right: 5px;
+    width: 20%;
+    height: 97.5%;
+    border: 1px solid #000;
+    float: left;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+#asideEsquerdoHBus h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#asideEsquerdoHBus p{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#imagens{
+    padding-top: 3%;
+}
+
+/* === PÁGINA ESTRUTURA CURRICULAR CSI === */
+
+/* ARTICLE ESTRUTURA CURRICULAR */
+
+#articleEstruturaCurricular p{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#articleEstruturaCurricular table{
+    margin: 0 auto;
+    width: 90%;
+    line-height: 17px;
+}
+
+.tableThLargura{
+    width: 55%;
+}
+.tableThLarguraCod{
+    width: 18%;
+}
+
+#articleEstruturaCurricular table th,td,tr{
+    border: 0 solid #fff;
+}
+
+
+/* === PÁGINA INSCRIÇÃO === */
+
+/* ARTICLE INSCRIÇÃO */
+
+#articleInscrição ul li{
+    list-style: disc;
+}
+
+#articleInscrição ul{
+    margin-left: 5%;
+}
+
+
+/* === PÁGINA INSCRIÇÃO OUTROS === */
+
+/* ARTICLE INSCRIÇÃO */
+
+#articleInscriçãoOutros h2{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#articleInscriçãoOutros p{
+    margin: 0 0 5px 0;
+}
+
+#articleInscriçãoOutros fieldset{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+#articleInscriçãoOutros legend{
+    font-size: 16px;
+}
+
+#articleInscriçãoOutros button{
+    margin-top: 2%;
+    padding: 2px;
+}
+
+
+/* === PÁGINA INSCRIÇÃO CSI === */
+
+/* ARTICLE INSCRIÇÃO */
+
+#articleInscriçãoCSI h2{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#articleInscriçãoCSI p{
+    margin: 0 0 5px 0;
+}
+
+#articleInscriçãoCSI fieldset{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+#articleInscriçãoCSI legend{
+    font-size: 16px;
+}
+
+#articleInscriçãoCSI button{
+    padding: 2px;
+}
+
+
+/* === PÁGINA CONFIRMAÇÃO DE INSCRIÇÃO CSI === */
+
+/* ARTICLE CONFIRMAÇÃO DE INSCRIÇÃO */
+
+#articleConfInscricao p{
+    text-align: center;
+}
+
+.aConfInsc{
+    margin-top: 35%;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Sobre CSI</title>
+        <link rel="stylesheet" href="../css/reset.css"/>
+		<link rel="stylesheet" href="../css/geral.css"/>
+        <script src="../javascript/geral.js"></script>
+	</head>
+	<body>
+		<div id="conteiner">
+		
+			<header>
+                <div id="headerH2LEFT">
+                    <h2>UFSM</h2>
+                </div>
+                <div id="headerPright">
+                    <p>Contato: (55) 3220.9655</p>
+                    <p>Santa Maria - RS</p>
+                </div>
+			</header>
+            
+            <nav>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="inscricao.html">INSCRIÇÃO</a></li>
+                    <li><a href="#">SUPORTE</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                </ul>
+            </nav>
+            
+            <section>
+                
+                <aside id="asideEsquerdoHBus">
+                    <h2>HORÁRIOS DE ÔNIBUS</h2>
+                    <p>Centro → UFSM</p>
+                    
+                    <table class="asideEsquerdoTable">
+                        <tr>
+                            <th>Hora</th>
+                            <th>Detalhe</th>
+                        </tr>
+                        <tr>
+                            <td>17:20</td>
+                            <td>Faixa nova</td>
+                        </tr>
+                        <tr>
+                            <td>17:30</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                        <tr>
+                            <td>17:40</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                        <tr>
+                            <td>17:50</td>
+                            <td>Faixa nova</td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                    </table>
+                    
+                    <p>UFSM → Centro</p>
+                    
+                    <table class="asideEsquerdoTable">
+                        <tr>
+                            <th>Hora</th>
+                            <th>Detalhe</th>
+                        </tr>
+                        <tr>
+                            <td>17:20</td>
+                            <td>Faixa nova</td>
+                        </tr>
+                        <tr>
+                            <td>17:30</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                        <tr>
+                            <td>17:40</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                        <tr>
+                            <td>17:50</td>
+                            <td>Faixa nova</td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td>
+                            <td>Faixa velha</td>
+                        </tr>
+                    </table>
+                    
+                </aside>
+                
+                <article id="articleInscriçãoCSI">
+                    <h2>Ficha de Inscrição</h2>
+                    <p class="centro"><img src="../imagens/textoCSI.png" alt="logoCSI" width="350"/></p>
+
+                        <form id="form1" method="post" action="confirmacaoInscricao.html"> <!-- Criar um "id" para ser referenciado no script, aqui, id="form1" -->
+                            <fieldset>
+                                <legend>Inscrição</legend>
+                                <p>Nome completo:</p>
+                                    <p><input id="nome" name="nome" type="text" size="55" placeholder="digite seu nome aqui"/></p> <!-- Criar um "id" para ser referenciado no script, aqui, id="nome" -->
+                                <p>Email:</p>
+                                    <p><input id="email" name="Email" type="text" size="55" placeholder="exemplo@exemplo.com"/></p>
+                                <p>Telefone:</p>    
+                                    <p>
+                                        <input id="contato" name="contato" type="text" size="34" placeholder="(DDD) 9 + número"/>
+                                        <label>Sexo:
+                                        <select name="sexo">
+                                            <option value="">Masculino</option>
+                                            <option value="">Feminino</option>
+                                        </select>
+                                        </label>
+                                    </p>
+                                <p>Data de nascimento:</p>
+                                    <p><input id="dataNasc" name="data_de_nascimento" type="date" size="55" /></p>
+
+                                <p class="centro"><button type="submit" onclick="return validar()">Enviar</button> </p> <!-- Botão enviar, ao ser clicado chama a função "validar()" no script -->
+                            </fieldset>
+                        </form>
+                    
+                </article>
+                
+                <aside id="asideDireitoSobre">
+                    <table>
+                        <tr>
+                            <th>SISTEMAS PARA INTERNET</th>
+                        </tr>
+                        <tr>
+                            <td><a href="estruturaCurricularCSI.html">Estrutura Curricular</a></td>
+                        </tr>
+                    </table>
+                    
+                    <table>
+                        <tr>
+                            <th>CURRÍCULO VERSÃO ATUAL</th>
+                        </tr>
+                        <tr>
+                            <td><a href="horariosCSI.html">Horários do Curso</a></td>
+                        </tr>
+                    </table>
+                    
+                    
+                    <p><p>
+                </aside>
+
+            </section>
+			
+			<footer>
+				<p>Universidade Federal de Santa Maria</p>
+			</footer>
+			
+			<!-- /conteiner -->
+		</div>
+
+	</body>
+</html>
